@@ -24,3 +24,29 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Jost-VariableFont_wght.ttf");
+  }
+:root[mode=ios] .jost,
+:root[mode=md] .jost{
+  --ion-font-family:  'Jost'!important;
+  font-family:  'Jost' !important;
+}
+
+.container-dark {
+    background-color: var(--ion-toolbar-background);
+    padding: 1px 0px 6px 0px;
+}
+.container-light {
+    background-color: var(--ion-color-step-50);
+    padding: 1px 0px 6px 0px;
+}
+.container-x-light {
+    background-color: var(--ion-color-step-100);
+    padding: 1px 0px 6px 0px;
+}
+
