@@ -1,0 +1,24 @@
+ion-card {
+    margin: 10px auto;
+    // margin-top: 10;
+    padding: 5px;
+    min-width: 275px;
+    max-width: 300px;
+
+}
+.safezone {
+    margin: 1px 10px
+}
+
+.container-dark {
+    background-color: var(--ion-toolbar-background);
+    padding: 1px 0px 6px 0px;
+}
+.container-light {
+    background-color: var(--ion-color-step-50);
+    padding: 1px 0px 6px 0px;
+}
+.container-x-light {
+    background-color: var(--ion-color-step-100);
+    padding: 1px 0px 6px 0px;
+}
