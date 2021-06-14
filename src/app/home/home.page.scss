@@ -4,6 +4,10 @@ ion-content {
     justify-content: center;
 }
 
+ion-card{
+    border: 1px solid var(--ion-color-light-tint);
+}
+
 .cologo {
     margin-top: 15px 10px;
     max-width: 85%;
@@ -17,3 +21,10 @@ ion-content {
 h1 {
     font-size: 2em;
 }
+.ao {
+    text-decoration: underline;
+}
+
+// h4[name="hours"] {
+//     padding-left: 25%;
+// }

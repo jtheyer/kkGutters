@@ -7,10 +7,75 @@ import { IonSlides } from '@ionic/angular';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
-  // nums = ["1","2","3","4","5","6"];
   @ViewChild('slideWithNav', { static: false }) slideWithNav: IonSlides;
   @ViewChild('slideWithNav2', { static: false }) slideWithNav2: IonSlides;
   @ViewChild('slideWithNav3', { static: false }) slideWithNav3: IonSlides;
+
+  nyCounties = [
+    'Broome',
+    'Chemung',
+    'Chenango',
+    'Tioga',
+    'Tompkins',
+  ]
+  paCounties = [
+    'Bradford',
+    'Lackawanna',
+    'Lycoming',
+    'Sullivan',
+    'Wyoming',
+  ]
+
+  hoursWkDay = [
+    'Monday: 6:00 a.m. - 6:00 p.m.',
+    'Tuesday: 6:00 a.m. - 6:00 p.m.',
+    'Wednesday: 6:00 a.m. - 6:00 p.m.',
+    'Thursday: 6:00 a.m. - 6:00 p.m.',
+    'Friday: 6:00 a.m. - 6:00 p.m.',
+  ]
+  hoursWkEnd = [
+    'Saturday: 6:00 a.m. - 6:00 p.m.',
+    'Sunday: Closed',
+  ]
+
+  jsonData = {
+    "chat":
+      [
+        {
+          "title": "79",
+          "content":
+          {
+            "from": "Testing Page - joe",
+            "from_id": 79,
+            "to": "userTestName",
+            "to_id": 1548,
+            "unread": 2,
+            "messages":
+              [
+                { "id": 154, "page_id": 79, "user_id": 1548, "text": "this is the first message to be sent by joe", "seen": 0, "isgroup": 0, "group_id": null, "created_at": "2019-04-10 13:54:10", "updated_at": "2019-04-10 13:54:10" },
+                { "id": 155, "page_id": 79, "user_id": 1548, "text": "this is the second message sent to joe", "seen": 0, "isgroup": 0, "group_id": null, "created_at": "2019-04-11 12:37:39", "updated_at": "2019-04-11 12:37:39" }
+              ]
+          }
+        },
+        {
+          "title": "44",
+          "content":
+          {
+            "from": "Rock Music Band",
+            "from_id": 44,
+            "to": "userTestName",
+            "to_id": 1548,
+            "unread": 1,
+            "messages":
+              [
+                { "id": 156, "page_id": 44, "user_id": 1548, "text": "Hello this message from rock", "seen": 0, "isgroup": 0, "group_id": null, "created_at": "2019-04-11 13:18:44", "updated_at": "2019-04-11 13:18:44" }
+              ]
+          }
+        }
+      ],
+    "unread": 3
+  }
+
 
   sliderOne: any;
   sliderTwo: any;
@@ -36,7 +101,7 @@ export class HomePage implements OnInit {
   };
 
   constructor() {
-    //Item object for Nature
+    //Item object for 1
     this.sliderOne =
     {
       isBeginningSlide: true,
@@ -62,7 +127,7 @@ export class HomePage implements OnInit {
         },
       ]
     };
-    //Item object for Food
+    //Item object for 2
     this.sliderTwo =
     {
       isBeginningSlide: true,
@@ -89,7 +154,7 @@ export class HomePage implements OnInit {
       ]
     };
 
-    //Item object for Fashion
+    //Item object for 3
     this.sliderThree =
     {
       isBeginningSlide: true,
@@ -115,7 +180,7 @@ export class HomePage implements OnInit {
         },
       ]
     };
-   }
+  }
 
   ngOnInit() {
   }
