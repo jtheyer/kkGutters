@@ -27,6 +27,22 @@ p {
     font-size: 1.5em;
 }
 
+.product-color{
+    min-width: 50px;
+    max-width: 150px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.product-color p {
+    padding: 0px 0 0px 0;
+    margin: 0px 0 0px 0;
+    position: relative;
+    bottom: 30px;
+    font-size: medium;
+}
 
 .seamless-gutters-text-card{
     max-width: 350px;
@@ -46,4 +62,112 @@ p {
     // margin: 10px auto;
     // max-width: 450px;
     min-width: 150px;
+}
+
+.center {
+    // display: flex;
+    // justify-content: center;
+    // align-content: center;
+    // align-items: center;
+    width: 100%;
+  }
+
+.mc-almond {
+    background-color:#efdecd;
+}
+.mc-black {
+    background-color:black;
+}
+.mc-charcoal-grey {
+    background-color:#36454F;
+}
+.nx-cream {
+    background-color:#F9F9E0;
+}
+.vm-stone-mnt-clay {
+    background-color:#A69479;
+}
+.mc-everest {
+    background-color:#0A8021;
+}
+.mc-evergreen {
+    background-color:#05472a;
+}
+.mc-musket-brown {
+    background-color:#463A32;
+}
+.mc-pebblestone-clay {
+    background-color:#A1907C;
+}
+.mc-redwood {
+    background-color:#5b342e;
+}
+.mc-royal-brown {
+    background-color:#523b35;
+}
+.mc-wicker {
+    background-color:#e8dfcb;
+}
+.mc-white-30 {
+    background-color:#F6F6F4;
+}
+.mc-white-80 {
+    background-color:#F1F2EB;
+}
+.nx-beaver-brown {
+    background-color:#78675D;
+}
+.nx-bronze {
+    background-color:#CD7F32;
+}
+.mc-brookstone {
+    background-color:#6AA396;
+}
+.mc-buckskin {
+    background-color:#BBA488;
+}
+.mc-cameo {
+    background-color:#D1A57D;
+}
+.nx-copper-penny {
+    background-color:#C4875B;
+}
+.mc-country-blue {
+    background-color:#0167B2;
+}
+.mc-desert-sand {
+    background-color:#C2A863;
+}
+.mc-eggshell {
+    background-color:#F0EAD6;
+}
+.nx-frost {
+    background-color:#BFDFED;
+}
+.mc-harbor-gray {
+    background-color:#C7C6C1;
+}
+.mc-linen {
+    background-color:#FAF0E6;
+}
+.mc-montana-suede {
+    background-color:#7C7364;
+}
+.mc-sage {
+    background-color:#9BA17B;
+}
+.mc-sandstone {
+    background-color:#CBAD75;
+}
+.mc-silver-gray {
+    background-color:#C0C0C0;
+}
+.mc-terra-bronze {
+    background-color:#6B635A;
+}
+.mc-village-green {
+    background-color:#64867E;
+}
+.nx-norwegian-wood {
+    background-color:#605A4F;
 }
