@@ -12,4 +12,9 @@ export class AboutPage implements OnInit {
   ngOnInit() {
   }
 
+  goToLeafBlaster() {
+    window.open("https://www.leafblaster.com/")
+  }
+
+
 }

@@ -57,12 +57,24 @@ p {
     border-radius: 5px;
 }
 
-.kk-img {
+// REMOVED
+// .kk-img {
+//     border-radius: 5px;
+//     // margin: 10px auto;
+//     // max-width: 450px;
+//     min-width: 150px;
+// }
+
+.leaf-blaster-logo {
     border-radius: 5px;
-    // margin: 10px auto;
-    // max-width: 450px;
-    min-width: 150px;
+    // max-width: 60px;
+    // max-height: 25px;
 }
+
+// .leaf-blaster-div {
+//     pointer-events: none;
+// }
+
 
 .center {
     // display: flex;
@@ -73,101 +85,101 @@ p {
   }
 
 .mc-almond {
-    background-color:#efdecd;
+    background-color:#ECE0C7;
 }
 .mc-black {
     background-color:black;
 }
-.mc-charcoal-grey {
-    background-color:#36454F;
-}
-.nx-cream {
-    background-color:#F9F9E0;
-}
-.vm-stone-mnt-clay {
-    background-color:#A69479;
-}
-.mc-everest {
-    background-color:#0A8021;
-}
-.mc-evergreen {
-    background-color:#05472a;
-}
-.mc-musket-brown {
-    background-color:#463A32;
-}
-.mc-pebblestone-clay {
-    background-color:#A1907C;
-}
-.mc-redwood {
-    background-color:#5b342e;
-}
-.mc-royal-brown {
-    background-color:#523b35;
-}
-.mc-wicker {
-    background-color:#e8dfcb;
-}
-.mc-white-30 {
-    background-color:#F6F6F4;
-}
-.mc-white-80 {
-    background-color:#F1F2EB;
-}
 .nx-beaver-brown {
-    background-color:#78675D;
+    background-color:#5C453C;
 }
 .nx-bronze {
-    background-color:#CD7F32;
+    background-color:#322E2C;
 }
 .mc-brookstone {
-    background-color:#6AA396;
+    background-color:#999788;
 }
 .mc-buckskin {
-    background-color:#BBA488;
+    background-color:#8E7159;
 }
 .mc-cameo {
-    background-color:#D1A57D;
+    background-color:#F6E8CE;
+}
+.mc-charcoal-grey {
+    background-color:#636567;
 }
 .nx-copper-penny {
-    background-color:#C4875B;
+    background-color:#C67A3E;
 }
 .mc-country-blue {
-    background-color:#0167B2;
+    background-color:#547F91;
+}
+.nx-cream {
+    background-color:#F9ECC8;
 }
 .mc-desert-sand {
-    background-color:#C2A863;
+    background-color:#DDC8AE;
 }
 .mc-eggshell {
     background-color:#F0EAD6;
+}
+.mc-everest {
+    background-color:#97A6AA;
+}
+.mc-evergreen {
+    background-color:#2B5145;
 }
 .nx-frost {
     background-color:#BFDFED;
 }
 .mc-harbor-gray {
-    background-color:#C7C6C1;
+    background-color:#8F8B85;
 }
 .mc-linen {
-    background-color:#FAF0E6;
+    background-color:#F4ECDD;
 }
 .mc-montana-suede {
     background-color:#7C7364;
+}
+.mc-musket-brown {
+    background-color:#463E3B;
+}
+.nx-norwegian-wood {
+    background-color:#605A4F;
+}
+.mc-pebblestone-clay {
+    background-color:#958977;
+}
+.mc-redwood {
+    background-color:#742E2E;
+}
+.mc-royal-brown {
+    background-color:#4E3836;
 }
 .mc-sage {
     background-color:#9BA17B;
 }
 .mc-sandstone {
-    background-color:#CBAD75;
+    background-color:#DEC5A0;
 }
 .mc-silver-gray {
     background-color:#C0C0C0;
 }
+.vm-stone-mnt-clay {
+    background-color:#A69479;
+}
 .mc-terra-bronze {
-    background-color:#6B635A;
+    background-color:#635D56;
 }
 .mc-village-green {
-    background-color:#64867E;
+    background-color:#A2AB9B;
 }
-.nx-norwegian-wood {
-    background-color:#605A4F;
+.mc-wicker {
+    background-color:#B9A990;
+}
+.mc-white-30 {
+    background-color:#F3F5EF;
+}
+.mc-white-80 {
+    background-color:#F5F6EF;
 }
