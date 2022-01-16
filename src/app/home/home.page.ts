@@ -23,6 +23,7 @@ export class HomePage implements OnInit {
     'Lackawanna',
     'Lycoming',
     'Sullivan',
+    'Tioga',
     'Wyoming',
   ]
 
@@ -124,6 +125,15 @@ export class HomePage implements OnInit {
         },
         {
           id: 6
+        },
+        {
+          id: 7
+        },
+        {
+          id: 8
+        },
+        {
+          id: 9
         },
       ]
     };
