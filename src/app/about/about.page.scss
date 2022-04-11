@@ -57,24 +57,21 @@ p {
     border-radius: 5px;
 }
 
-// REMOVED
-// .kk-img {
-//     border-radius: 5px;
-//     // margin: 10px auto;
-//     // max-width: 450px;
-//     min-width: 150px;
-// }
-
+.leaf-blaster-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    max-width: 350px;
+    max-height: 250px;
+    // align-items: center;
+}
 .leaf-blaster-logo {
     border-radius: 5px;
-    // max-width: 60px;
-    // max-height: 25px;
+    // max-width: 350px;
+    // max-height: 250px;
+    
 }
-
-// .leaf-blaster-div {
-//     pointer-events: none;
-// }
-
 
 .center {
     // display: flex;
